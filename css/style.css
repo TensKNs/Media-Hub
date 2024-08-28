@@ -1,0 +1,92 @@
+body {
+  background-color: #000000;
+}
+
+nav {
+  background: rgb(26, 26, 26);
+  width: 460px;
+  display: flex;
+  border-radius: 22px;
+  justify-content: space-between;
+  padding: 5px;
+  box-shadow: 2px 2px 15px rgba(160, 160, 160, 0.562);
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+nav > a {
+  color: #ffff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 22px;
+}
+nav > a:hover {
+  transition: 0.25s;
+  background: rgb(22, 22, 255);
+  color: rgb(50, 50, 50);
+}
+h2,
+h3 {
+  text-align: center;
+  color: white;
+}
+.consoles {
+  display: flex;
+  justify-content: center;
+}
+.consoles > div > img {
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.562);
+}
+*p,
+h1,
+h2,
+h3,
+a {
+  font-family: 25%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container > img {
+  border-radius: 30px;
+  box-shadow: 2px 2px 20px rgba(160, 160, 160, 0.562);
+  max-width: 600px;
+}
+.button1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.link1 {
+  text-decoration: none;
+  color: #000000;
+}
+.link1 {
+  font-size: 20px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+}
+
+.link1:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.link1:active {
+  transform: translate(0em, 0.2em);
+}
