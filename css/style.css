@@ -84,18 +84,18 @@ h3 {
 .link1:active {
   transform: translate(0em, 0.2em);
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 450px) and(max-width: 768px) {
   * {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   nav {
-    width: 360px;
+    width: 460px;
   }
   .container > img {
-    width: 90%;
+    width: 100%;
   }
   .button1 > a {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
