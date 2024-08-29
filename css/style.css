@@ -86,11 +86,11 @@ h3 {
 }
 @media screen and (min-width: 450px) and(max-width: 768px) {
   * {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   nav {
-    width: 400px;
+    width: 380px;
   }
   .container > img {
     width: 90%;
